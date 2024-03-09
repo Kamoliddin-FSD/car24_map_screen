@@ -1,3 +1,5 @@
+import 'package:car24_map_screen/home/home_screen.dart';
+import 'package:car24_map_screen/tab_screen/explore_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:pinput/pinput.dart';
@@ -73,7 +75,7 @@ class VerificationScreen extends StatelessWidget {
                     onPressed: () {
                       Navigator.pushAndRemoveUntil(
                         context,
-                        MaterialPageRoute(builder: (context) => VerificationScreen()),
+                        MaterialPageRoute(builder: (context) => HomePage()),
                         // home
                             (route) => false,
                       );
