@@ -9,7 +9,7 @@ import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:location/location.dart';
 import 'package:text_divider/text_divider.dart';
 
-import 'consts.dart';
+import '../../map_widget/consts.dart';
 
 class GoService extends StatefulWidget {
   const GoService({super.key});

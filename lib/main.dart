@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:geolocator/geolocator.dart';
-import 'main_page.dart';
+import 'tab_screen/explore_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -46,7 +46,7 @@ class _MyAppState extends State<MyApp> {
       theme: ThemeData(
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.blueGrey)
       ),
-      home: const MainPage(),
+      home: const ExploreMain(),
     );
   }
 }

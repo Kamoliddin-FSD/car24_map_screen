@@ -1,20 +1,20 @@
 import 'dart:async';
-import 'package:car24_map_screen/search_bar.dart';
-import 'package:car24_map_screen/service_widget.dart';
+import 'package:car24_map_screen/map_widget/search_bar.dart';
+import 'package:car24_map_screen/map_widget/service_widget.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 
-class MainPage extends StatefulWidget {
-  const MainPage({super.key});
+class ExploreMain extends StatefulWidget {
+  const ExploreMain({super.key});
 
   @override
-  State<MainPage> createState() => _MainPageState();
+  State<ExploreMain> createState() => _ExploreMainState();
 }
 
-class _MainPageState extends State<MainPage> {
+class _ExploreMainState extends State<ExploreMain> {
   static Position? _position;
 
   final Completer<GoogleMapController> _controller =

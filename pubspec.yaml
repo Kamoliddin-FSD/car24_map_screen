@@ -36,22 +36,23 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
 
-  gap: ^3.0.1
   google_maps_flutter: ^2.5.3
-  geolocator: ^10.1.1
-  permission_handler: ^11.2.0
-  fluid_bottom_nav_bar: ^1.4.0
-  google_fonts: ^6.1.0
+  pinput: ^4.0.0
+  google_fonts: ^6.2.0
+  gap: ^3.0.1
+  smooth_page_indicator: ^1.1.0
+  ionicons: ^0.2.2
+  geolocator: ^11.0.0
+  permission_handler: ^11.3.0
   location: ^5.0.3
   flutter_polyline_points: ^2.0.0
-  flutter_svg: ^1.1.6
-  custom_marker: ^1.0.0
   expandable_page_view: ^1.0.17
   lorem_ipsum: ^0.0.3
-  label_google_maps_marker: ^0.0.3
   text_divider: ^1.0.0
   carousel_slider: ^4.2.1
   animations: ^2.0.11
+
+
 
 dev_dependencies:
   flutter_test:

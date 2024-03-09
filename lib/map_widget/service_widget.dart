@@ -1,5 +1,5 @@
 import 'package:animations/animations.dart';
-import 'package:car24_map_screen/service_about.dart';
+import 'package:car24_map_screen/settings/screens/service_about.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
